@@ -27,21 +27,8 @@
 
         <dependency>
             <groupId>io.tinga.braid</groupId>
-            <artifactId>entity-gadget</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>io.tinga.braid</groupId>
             <artifactId>etl-gadget</artifactId>
             <version>${project.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>io.tinga.braid</groupId>
-            <artifactId>opcuademo-gadget</artifactId>
-            <version>${project.version}</version>
-            <scope>compile</scope>
         </dependency>
 
         <!-- Logging -->
