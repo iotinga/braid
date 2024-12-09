@@ -40,5 +40,13 @@ I progetti specifici per il progetto BRAID (firmware e backend) sono stati inclu
 * braid-firmware - contiene il codice del firmware sviluppato per il PoC
 
 Sono inoltre stati rilasciati i seguenti progetti sotto forma di repository pubblici dedicati:
+
 * [mosquitto-oauth-plugin](https://github.com/iotinga/mosquitto-oauth-plugin) - Plugin mosquitto per l'autenticazione dei client su broker MQTT
 * [mosquitto-message-sign-plugin](https://github.com/iotinga/mosquitto-message-sign-plugin) - Plugin mosquitto per la marca temporale certificata di tutti i messaggi ricevuti
+
+Infine sono stati prodotti i seguenti documenti "guidelines":
+
+* [device-guidelines](guidelines/hardware/device-guidelines.md) - Descrive le accortezze da prendere in fase di progettazione sviluppo hardware al fine di preservare le caratteristiche di sicurezza del softare `braid-firmware`
+* [notes-on-gsm-modems](guidelines/hardware/notes-on-gsm-modems.md) - Una disamina sulla gestione di modem GSM in sistemi embedded
+* [mqtt-protocol](guidelines/cloud/mqtt-protocol.md) - La specifica del protocollo con cui i device / agent dialogano con il cloud di raccolta dati
+* [certified-run](guidelines/cloud/certified-run.md) - Accorgimenti da prendere in fase di rilascio e run del broker MQTT al fine di rendere verificabile la genuinità del software broker in esecuzione
