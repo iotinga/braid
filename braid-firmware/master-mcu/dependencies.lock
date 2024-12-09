@@ -1,0 +1,27 @@
+dependencies:
+  espressif/cbor:
+    component_hash: 440f4ee4504841cc9b4f3a8ef755776a612ac9dace355514c68b999868f990ff
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 0.6.0~1
+  espressif/esp-cryptoauthlib:
+    component_hash: 3b50d30c9a79934e9d2b6af69cf46e000cc4bae881250dba7bb76cc45c00a371
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 3.5.1~5
+  espressif/esp_modem:
+    component_hash: e48da33fee082dd9d9a97a354a228057e07a14ac108766b40ad84e018205410a
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.1.0
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.2.1
+manifest_hash: f4e95a0cd3191d1ecc3b8efe550b5eb8d4c80b1d8e70a6d6d5f0ad8172513448
+target: esp32
+version: 1.0.0

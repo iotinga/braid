@@ -22,6 +22,23 @@ Nel diagramma è possibile identificare gli attori coinvolti nella disamina:
 
 ![Architecture Diagram with Certification Authority](assets/BRAID-final-CA-SCENARIO.drawio.png)
 
+Viene aggiunto al diagramma generico:
+* Time-mark plugin, che si integra in mosquitto per aggiungere una marca temporale ad ogni messaggio che attraversa il broker
+
 ## Variante basata su Block Chain
 
 ![Architecture Diagram with Certification Authority](assets/BRAID-final-BC-SCENARIO.drawio.png)
+
+Viene aggiunto al diagramma generico:
+* Blockchain plugin, che si integra in mosquitto per firmare, tramite blockchain, tutti i messaggi che attraversano il broker
+
+# Riferimenti del progetto
+
+I progetti specifici per il progetto BRAID (firmware e backend) sono stati inclusi direttamente in questo repository rispettivamente nelle cartelle 
+
+* braid-backend - contiente l'infrastruttura cloud completa di configuazioni per broker MQTT, database postgres ed ETL
+* braid-firmware - contiene il codice del firmware sviluppato per il PoC
+
+Sono inoltre stati rilasciati i seguenti progetti sotto forma di repository pubblici dedicati:
+* [mosquitto-oauth-plugin](https://github.com/iotinga/mosquitto-oauth-plugin) - Plugin mosquitto per l'autenticazione dei client su broker MQTT
+* [mosquitto-message-sign-plugin](https://github.com/iotinga/mosquitto-message-sign-plugin) - Plugin mosquitto per la marca temporale certificata di tutti i messaggi ricevuti

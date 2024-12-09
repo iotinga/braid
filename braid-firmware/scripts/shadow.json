@@ -1,0 +1,21 @@
+{
+    "TS": 10000,
+    "VER": 0,
+    "PROT": 1,
+    "ACTION": 0,
+    "STATUS": 200,
+    "BODY": {
+        "FW_VER": "0.0.1-commit",
+        "DELAY": 120,
+        "HUMID": 56341,
+        "TEMP": 24544,
+        "ACC_X": 0.020,
+        "ACC_Y": 0.015,
+        "ACC_Z": 0.997,
+        "LAT": 0.1,
+        "LON": 0.1,
+        "HSPEED": 0.1,
+        "ALT": 0.1,
+        "H_ACC": 0.1
+    }
+}

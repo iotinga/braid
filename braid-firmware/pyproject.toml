@@ -1,0 +1,40 @@
+[project]
+name = "braid-firmware-scripts"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+authors = []
+requires-python = "<4.0,>=3.9"
+dependencies = [
+    "cryptography==42.0.6",
+    "esptool>=4.7.0",
+    "pyasn1-modules==0.1.5",
+    "pyasn1==0.3.7",
+    "python-jose==3.1.0",
+    "pyserial==3.5",
+    "setuptools>=70.1.1",
+    "cbor2>=5.6.4",
+    "paho-mqtt>=2.1.0",
+]
+
+[tool.pdm.scripts]
+secure_cert_mfg = { call = "scripts.esp_cryptoauth_utility.secure_cert_mfg:main", working_dir = "scripts/esp_cryptoauth_utility" }
+decode_esp32_stacktrace = { call = "scripts.decode_esp32_stacktrace:main", working_dir = "scripts/.." }
+generate_factory_data = { call = "scripts.generate_factory_data:main" }
+gen_partition_table = { call = "scripts.gen_partition_table:main", working_dir = "scripts/.." }
+send_factory_data = { call = "scripts.send_factory_data:main" }
+
+[tool.pdm.build]
+includes = ["scripts", "scripts/esp_cryptoauth_utility"]
+
+[tool.black]
+line-length = 120
+
+[tool.ruff]
+line-length = 120
+select = ["ASYNC", "C4", "DJ", "E", "F", "PTH", "SIM", "UP"]
+ignore = ["E501"]
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"

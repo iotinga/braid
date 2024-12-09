@@ -1,0 +1,10 @@
+/home/matteo/Repository/braid-backend/core/src/main/java/io/tinga/braid/core/connection/opcua/OPCUAType.java
+/home/matteo/Repository/braid-backend/core/src/main/java/io/tinga/braid/protocol/RawMessageVersionBasedValidator.java
+/home/matteo/Repository/braid-backend/core/src/main/java/io/tinga/braid/protocol/RawMessage.java
+/home/matteo/Repository/braid-backend/core/src/main/java/io/tinga/braid/core/connection/opcua/impl/BasicOPCUAConnection.java
+/home/matteo/Repository/braid-backend/core/src/main/java/io/tinga/braid/core/connection/opcua/OPCUAConnection.java
+/home/matteo/Repository/braid-backend/core/src/main/java/io/tinga/braid/protocol/RawMessageValidationException.java
+/home/matteo/Repository/braid-backend/core/src/main/java/io/tinga/braid/protocol/RawMessageValidator.java
+/home/matteo/Repository/braid-backend/core/src/main/java/io/tinga/braid/core/connection/ConnectionState.java
+/home/matteo/Repository/braid-backend/core/src/main/java/io/tinga/braid/core/connection/Connection.java
+/home/matteo/Repository/braid-backend/core/src/main/java/io/tinga/braid/protocol/Action.java

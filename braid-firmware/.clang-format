@@ -1,0 +1,15 @@
+---
+BasedOnStyle: Microsoft
+IndentWidth: 4
+---
+Language: Cpp
+AlignConsecutiveMacros: true
+BinPackArguments: false
+BinPackParameters: false
+BreakBeforeBraces: Attach
+ColumnLimit: 120
+FixNamespaceComments: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+PointerAlignment: Right
+SortIncludes: true
+SortUsingDeclarations: true

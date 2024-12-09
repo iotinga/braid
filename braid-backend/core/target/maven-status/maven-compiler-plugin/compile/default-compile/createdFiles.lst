@@ -1,0 +1,11 @@
+io/tinga/braid/protocol/Action.class
+io/tinga/braid/core/connection/Connection.class
+io/tinga/braid/core/connection/ConnectionState.class
+io/tinga/braid/core/connection/opcua/OPCUAType.class
+io/tinga/braid/protocol/RawMessageValidationException.class
+io/tinga/braid/protocol/RawMessage.class
+io/tinga/braid/core/connection/opcua/OPCUAConnection.class
+io/tinga/braid/protocol/RawMessageValidator.class
+io/tinga/braid/core/connection/opcua/impl/BasicOPCUAConnection$1.class
+io/tinga/braid/core/connection/opcua/impl/BasicOPCUAConnection.class
+io/tinga/braid/protocol/RawMessageVersionBasedValidator.class

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="400"
+   height="200"
+   viewBox="0 0 105.83333 52.916667"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="via-2layer.svg"
+   inkscape:export-filename="via-2layer.png"
+   inkscape:export-xdpi="240"
+   inkscape:export-ydpi="240"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.7107101"
+     inkscape:cx="84.760126"
+     inkscape:cy="210.43893"
+     inkscape:window-width="1680"
+     inkscape:window-height="997"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:export-bgcolor="#ffffffff" />
+  <defs
+     id="defs1">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21"
+       preserveAspectRatio="xMidYMid"
+       id="pattern22"
+       patternTransform="matrix(0.02,0,0,0.02,188.02613,405)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6795"
+       id="pattern21"
+       patternTransform="matrix(0.02,0,0,0.02,185,405)"
+       x="0"
+       y="0"
+       preserveAspectRatio="xMidYMid" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="20"
+       height="20"
+       patternTransform="translate(185,405)"
+       style="fill:#69bc69"
+       id="pattern6795"
+       inkscape:label="Abstract 2"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         id="rect6713"
+         style="opacity:1;stroke-width:4.8561;stroke-linecap:square;paint-order:stroke markers fill;stop-color:#000000"
+         d="M 10,10 H 20 L 15,20 H 5 Z M 5,0 H 15 L 10,10 H 0 Z" />
+    </pattern>
+    <linearGradient
+       id="linearGradient17"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#ffcc00;stop-opacity:1;"
+         offset="0"
+         id="stop17" />
+      <stop
+         style="stop-color:#ffcc00;stop-opacity:0.16730037;"
+         offset="0.50843376"
+         id="stop18" />
+      <stop
+         style="stop-color:#ffcc00;stop-opacity:1;"
+         offset="1"
+         id="stop19" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient17"
+       id="linearGradient18"
+       x1="55.213188"
+       y1="13.528955"
+       x2="63.932148"
+       y2="13.528955"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="pad"
+       gradientTransform="matrix(1.0296681,0,0,1,-1.8967389,0.39687562)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient17"
+       id="linearGradient19"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0296681,0,0,1.8990421,-1.8967389,-18.258182)"
+       x1="55.213188"
+       y1="13.528955"
+       x2="63.932148"
+       y2="13.528955"
+       spreadMethod="pad" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g23"
+       transform="translate(-0.77331437,-13.020281)">
+      <rect
+         style="fill:url(#pattern22);fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-dasharray:none"
+         id="rect1"
+         width="79.617592"
+         height="23.321997"
+         x="16.134001"
+         y="-51.348499"
+         ry="0"
+         transform="scale(1,-1)" />
+      <rect
+         style="fill:#181300;fill-opacity:1;stroke:none;stroke-width:0.0606717;stroke-dasharray:none"
+         id="rect2"
+         width="79.699394"
+         height="0.26458332"
+         x="16.026949"
+         y="39.6875" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:System-ui;-inkscape-font-specification:'System-ui Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+       x="9.3576355"
+       y="22.898542"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'System Font';-inkscape-font-specification:'System Font';stroke-width:0.264583"
+         x="9.3576355"
+         y="22.898542">L1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:System-ui;-inkscape-font-specification:'System-ui Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+       x="9.3576355"
+       y="34.773438"
+       id="text7-9"><tspan
+         sodipodi:role="line"
+         id="tspan7-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'System Font';-inkscape-font-specification:'System Font';stroke-width:0.264583"
+         x="9.3576355"
+         y="34.773438">L2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'System Font';-inkscape-font-specification:'System Font';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+       x="13.304758"
+       y="45.528709"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="stroke-width:0.264583"
+         x="13.304758"
+         y="45.528709" /></text>
+    <g
+       id="g19"
+       transform="translate(-24.064157,7.3810785)">
+      <rect
+         style="fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.0418146;stroke-dasharray:none"
+         id="rect15"
+         width="17.844772"
+         height="0.79374999"
+         x="50.650284"
+         y="7.235436" />
+      <rect
+         style="fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.0418146;stroke-dasharray:none"
+         id="rect15-7"
+         width="17.844772"
+         height="0.79374999"
+         x="50.391605"
+         y="19.028725" />
+      <rect
+         style="fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.280998;stroke-dasharray:none"
+         id="rect16"
+         width="0.79374999"
+         height="11.793289"
+         x="54.419437"
+         y="7.6323109" />
+      <rect
+         style="fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.280998;stroke-dasharray:none"
+         id="rect16-5"
+         width="0.79374999"
+         height="11.793289"
+         x="63.932148"
+         y="7.6323109" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.255524;stroke-dasharray:none"
+         id="rect17-9"
+         width="8.7189598"
+         height="10.999538"
+         x="54.954514"
+         y="8.0291862" />
+      <rect
+         style="fill:url(#linearGradient18);fill-opacity:1;stroke:none;stroke-width:0.268479;stroke-dasharray:none"
+         id="rect17"
+         width="8.9776344"
+         height="11.793289"
+         x="54.954514"
+         y="8.0291862" />
+    </g>
+    <g
+       id="g19-2"
+       transform="translate(15.692375,19.222903)">
+      <rect
+         style="fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.0418146;stroke-dasharray:none"
+         id="rect15-5"
+         width="17.844772"
+         height="0.79374999"
+         x="50.391609"
+         y="-4.5578532" />
+      <rect
+         style="fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.0418146;stroke-dasharray:none"
+         id="rect15-7-6"
+         width="17.844772"
+         height="0.79374999"
+         x="50.346962"
+         y="18.631849" />
+      <rect
+         style="fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.394034;stroke-dasharray:none"
+         id="rect16-3"
+         width="0.79374999"
+         height="23.189703"
+         x="54.419437"
+         y="-3.7641032" />
+      <rect
+         style="fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.389333;stroke-dasharray:none"
+         id="rect16-5-4"
+         width="0.79374999"
+         height="22.63965"
+         x="63.932148"
+         y="-4.0078015" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.364611;stroke-dasharray:none"
+         id="rect17-9-0"
+         width="8.7189598"
+         height="22.395952"
+         x="54.954514"
+         y="-3.7641029" />
+      <rect
+         style="fill:url(#linearGradient19);fill-opacity:1;stroke:none;stroke-width:0.36998;stroke-dasharray:none"
+         id="rect17-6"
+         width="8.9776344"
+         height="22.395952"
+         x="54.954514"
+         y="-3.7641029" />
+    </g>
+    <rect
+       style="fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.374427;stroke-dasharray:none"
+       id="rect19"
+       width="25.939596"
+       height="0.79375058"
+       x="44.172218"
+       y="26.458334" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'System Font';-inkscape-font-specification:'System Font';text-align:center;text-anchor:middle;fill:#181300;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+       x="35.350037"
+       y="12.272895"
+       id="text23"><tspan
+         sodipodi:role="line"
+         id="tspan23"
+         style="stroke-width:0.264583"
+         x="35.350037"
+         y="12.272895">MCU SDA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'System Font';-inkscape-font-specification:'System Font';text-align:center;text-anchor:middle;fill:#181300;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+       x="75.073692"
+       y="44.773972"
+       id="text23-8"><tspan
+         sodipodi:role="line"
+         id="tspan23-3"
+         style="stroke-width:0.264583"
+         x="75.073692"
+         y="44.773972">SHT4x SDA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'System Font';-inkscape-font-specification:'System Font';text-align:center;text-anchor:middle;fill:#181300;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+       x="74.944359"
+       y="12.272895"
+       id="text23-8-5"><tspan
+         sodipodi:role="line"
+         id="tspan23-3-0"
+         style="stroke-width:0.264583"
+         x="74.944359"
+         y="12.272895">LIS2DH SDA</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+# Output files
+output_files/
+
+# Ignore cram test output
+*.t.err
+
+# Python cruft
+*.pyc
+
+# Virtualenvs
+.envrc
+.direnv
+.venv
+venv/
+
+# Testing
+.pytest_cache/
+.tox
+htmlcov
+
+# Build output
+build
+dist
+*.egg-info
+.coverage
+.coverage.*
+coverage.xml
+.cache

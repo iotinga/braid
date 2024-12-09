@@ -1,0 +1,22 @@
+{
+    "signal": [
+        {
+            "name": "clock",
+            "wave": "p....."
+        },
+        {
+            "node": "..A.B."
+        },
+        {
+            "name": "tamp",
+            "wave": "1.x.0."
+        }
+    ],
+    "edge": [
+        "A+B detect"
+    ],
+    "head": {
+        "tick": 0,
+        "every": 2
+    }
+}

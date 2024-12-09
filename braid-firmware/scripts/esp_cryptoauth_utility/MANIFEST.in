@@ -1,0 +1,3 @@
+include sample_certs/sample_signer_key.pem
+include sample_certs/sample_signer_cert.pem
+include requirements.txt

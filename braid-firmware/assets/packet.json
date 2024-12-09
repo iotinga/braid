@@ -1,0 +1,50 @@
+{
+    "reg": [
+        {
+            "bits": 8,
+            "name": 165,
+            "type": 2
+        },
+        {
+            "bits": 8,
+            "name": "message type",
+            "type": 3
+        },
+        {
+            "bits": 8,
+            "name": "payload length",
+            "type": 4
+        },
+        {
+            "bits": 160,
+            "name": "payload data",
+            "type": 5
+        },
+        {
+            "bits": 32,
+            "name": "payload hash",
+            "type": 7
+        },
+        {
+            "bits": 64,
+            "type": 0
+        },
+        {
+            "bits": 16,
+            "name": "crc16",
+            "type": 6
+        },
+        {
+            "bits": 1,
+            "type": 0
+        }
+    ],
+    "config": {
+        "hflip": true,
+        "vflip": true,
+        "compact": true,
+        "hspace": 1000,
+        "lanes": 9,
+        "fontsize": 16
+    }
+}

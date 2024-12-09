@@ -1,0 +1,41 @@
+# output files
+*.a
+*.o
+*.d
+*.elf
+*.map
+out/
+logs/
+bin/
+
+# Components
+managed_components/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pdm-python
+.pdm-build/
+
+*.meta.json
+
+build*/
+*.log
+*~
+
+!lib/coreHTTP
+!lib/coreMQTT
+
+# generated files
+__generated__
+
+private/
+
+release*
+
+root_fs/factory.bin
+sdk/root_fs/root.img 
+sdk/tools/fletcher32/fl32
+sdk/tools/mklittlefs/mklittlefs
+.DS_Store

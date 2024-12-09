@@ -1,0 +1,110 @@
+{
+  "realm" : "demo",
+  "users" : [ {
+    "id" : "cfe48266-974e-4afb-935b-fd9da310ba25",
+    "username" : "demo",
+    "email" : "demo@tinga.io",
+    "emailVerified" : true,
+    "createdTimestamp" : 1725467245582,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "2d828e5b-28fc-47b0-94ed-759f8da829bb",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1725467259179,
+      "secretData" : "{\"value\":\"b4MhqbDCkVGi//a9tvGjjT11TtoU7Is6VKePTOrfwJc=\",\"salt\":\"ZbxwfvyCMx3sMi/RTGT4jw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-demo" ],
+    "notBefore" : 0,
+    "groups" : [ "/administrator" ]
+  }, {
+    "id" : "b4b13672-65db-40a2-820d-c62588cf8d4a",
+    "username" : "demo-service",
+    "email" : "demo-service@iotinga.it",
+    "emailVerified" : true,
+    "createdTimestamp" : 1720618148524,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "05a1e7dd-b66f-4673-a532-fb22f5b71f2e",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1720618162270,
+      "secretData" : "{\"value\":\"Ivqd52g+R24F0JeHpJgTvar36k8gPGiOzQLvmvXZaMI=\",\"salt\":\"FqhcHP4aPYNlptpcJk9lcQ==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-demo" ],
+    "notBefore" : 0,
+    "groups" : [ "/administrator" ]
+  }, {
+    "id" : "da87babc-0dd4-4dd3-8ced-6157984186bd",
+    "username" : "grafana",
+    "firstName" : "Grafana",
+    "lastName" : "Demo",
+    "email" : "grafana@iotinga.it",
+    "emailVerified" : true,
+    "createdTimestamp" : 1721825909058,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "c1b4af03-5261-4ee8-828e-9a8efbc59575",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1721825929122,
+      "secretData" : "{\"value\":\"GsWB3SJmUfuR1NIbTWxCY2Gy5joAMjFJPY1sKUyNmeU=\",\"salt\":\"y1VkHxEHo6Y+1j6y0amauQ==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-demo" ],
+    "notBefore" : 0,
+    "groups" : [ "/grafana_admins" ]
+  }, {
+    "id" : "9f78091a-443b-49cb-9a85-186414d2ad32",
+    "username" : "mqtt-broker-admin",
+    "email" : "admin@tinga.io",
+    "emailVerified" : true,
+    "createdTimestamp" : 1722329425813,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "1600d3d3-a390-4200-bb2e-01a1068b4a58",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1722329444259,
+      "secretData" : "{\"value\":\"tM9DTh7wVW0YQMocyiMbuFkHxGdphiWHXlt9fWfC+rw=\",\"salt\":\"KkYPBiDXbJ4xWGMyAirBPQ==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-demo" ],
+    "clientRoles" : {
+      "realm-management" : [ "impersonation" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "ede52a43-d1ef-4413-8d12-036532c397c5",
+    "username" : "service-account-realm-management",
+    "emailVerified" : false,
+    "createdTimestamp" : 1726732881267,
+    "enabled" : true,
+    "totp" : false,
+    "serviceAccountClientId" : "realm-management",
+    "credentials" : [ ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-demo" ],
+    "clientRoles" : {
+      "realm-management" : [ "uma_protection" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}

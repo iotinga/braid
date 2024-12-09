@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.tinga.braid</groupId>
+    <artifactId>braid-backend</artifactId>
+    <version>0.0.29</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>core</module>
+        <module>runtime</module>
+        <module>etl-gadget</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>${version.java}</maven.compiler.source>
+        <maven.compiler.target>${version.java}</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <version.belt>0.0.8</version.belt>
+        <version.guice>7.0.0</version.guice>
+        <version.slf4j>2.0.9</version.slf4j>
+        <version.bauer>1.1.6</version.bauer>
+        <version.postgresql>42.7.3</version.postgresql>
+        <version.jackson>2.17.1</version.jackson>
+        <version.junit>5.9.2</version.junit>
+        <version.mockito>5.12.0</version.mockito>
+        <version.javafaker>1.0.2</version.javafaker>
+        <version.log4j2>2.22.1</version.log4j2>
+    </properties>
+
+</project>
