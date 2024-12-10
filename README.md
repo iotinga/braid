@@ -53,3 +53,9 @@ Infine sono stati prodotti i seguenti documenti "guidelines":
 * [notes-on-gsm-modems](guidelines/hardware/notes-on-gsm-modems.md) - Una disamina sulla gestione di modem GSM in sistemi embedded
 * [mqtt-protocol](guidelines/cloud/mqtt-protocol.md) - La specifica del protocollo con cui i device / agent dialogano con il cloud di raccolta dati
 * [certified-run](guidelines/cloud/certified-run.md) - Accorgimenti da prendere in fase di rilascio e run del broker MQTT al fine di rendere verificabile la genuinità del software broker in esecuzione
+
+# Prossimi passaggi:
+
+* Implementazione plugin mosquitto per scenario con Blockchain
+* Definizione benchmark e passi fase sperimentale
+* Raccolta ed analisi dei dati sperimentali
