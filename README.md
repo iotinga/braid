@@ -50,8 +50,7 @@ Per raggiungere questi risultati, riassumiamo di seguito le azioni che il proget
 4. Il Tracker deve comunicare con il Data Collection Software utilizzando tecniche in grado di garantire l'identità dei partecipanti ed una comunicazione sicura;
 5. Deve essere definito un protocollo di abbinamento e disabbinamento del Tracker dal Good.
 
-Mentre le azioni 1 3 e 5 devono essere trattate nello specifico, le azioni 2 e 4 sono già ampiamente coperte in letteratura. In particolare per il punto 4 risulta poco edificante l'utilizzo della blockchain, dati i limiti analizzati in [1], vista la presenza di tecnologie come SSL/TLS.
-Infine, l'azione 1 non si presta ad una analisi dal punto di vista della sicurezza informatica. Di seguito quindi verranno analizzate nel dettaglio le azioni 3 e 5.
+Mentre le azioni 1 3 e 5 devono essere trattate nello specifico, le azioni 2 e 4 sono già ampiamente coperte in letteratura. In particolare, per il punto 2 è possibile fare riferimento a [3] e [4],  mentre per il punto 4 risulta poco edificante l'utilizzo della blockchain, dati i limiti analizzati in [1], vista la presenza di tecnologie come SSL/TLS. Infine, l'azione 1 non si presta ad una analisi dal punto di vista della sicurezza informatica. Di seguito quindi verranno analizzate nel dettaglio le azioni 3 e 5.
 
 ### Firma dei dati all'origine
 Sebbene in prima battuta l'impiego di modello distribuito (blockchain) o centralizzato (basato su CA) possa sembrare equivalente, le caratteristiche particolari del dominio applicativo pongono serie limitazioni all'impiego della blockchain in questo particolare punto del sistema. Come riportato da [2], nonostante la blockchain offra potenziali benefici in termini di sicurezza e privacy per l'IoT, le limitazioni hardware dei dispositivi embedded ne rendono complessa l'implementazione diretta. Pertanto, viene suggerita l'adozione di tecnologie alternative più adatte a tali contesti. Data l'assenza di effettivi progressi che invalidino quanto riportato in letteratura, e data la necessità di arrivare ad una soluzione TRL 7 (dimostrata in un ambiente operativo reale o molto vicino a quello reale), l'utilizzo della tecnologia blockchain al fine di firmare i dati all'origine è stata scartata.
@@ -119,3 +118,7 @@ Infine sono stati prodotti i seguenti documenti "guidelines":
 [1] Vukolić, M. (2015). The Quest for Scalable Blockchain Fabric: Proof-of-Work vs. BFT Replication. In International Workshop on Open Problems in Network Security (pp. 112-125). Springer. DOI: 10.1007/978-3-319-39028-4_9
 
 [2] Khan, M. A., Khan, M. I., & Imran, M. (2022). Blockchain Systems in Embedded Internet of Things: Systematic Literature Review, Challenges Analysis, and Future Direction Suggestions. Electronics, 11(23), 4020.
+
+[3] Heirendt, L., Arreckx, S., Trefois, C., Yarosz, Y., Vyas, M., Satagopam, V. P., Schneider, R., Thiele, I., & Fleming, R. M. T. (2017). ARTENOLIS: Automated Reproducibility and Testing Environment for Licensed Software. arXiv preprint arXiv:1712.05236
+
+[4] Lamb, C., & Zacchiroli, S. (2021). Reproducible Builds: Increasing the Integrity of Software Supply Chains. arXiv preprint arXiv:2104.06020
